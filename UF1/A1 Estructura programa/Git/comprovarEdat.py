@@ -5,11 +5,13 @@ ASIXc M03 UF1 A1
 Descripció: Programa que demana l'edat i diu si ets major d'edat.
 """
 try:
-    edat = int(input("Quina edat tens? "))
-    if edat >= 18:
-        print("Ets MAJOR d'edat")
+    age = int(input("How old are you? "))
+    if age >= 18:
+        print("You are of age")
     else:
-        print("Ets MENOR d'edat")
-    print("Programa finalitzat")
-except ValueError:
-    print("ERROR: Valor no valid")
+        print("You are a minor")
+    print("Program completed")
+except Exception as e:
+    print("ERROR: Invalid value")
+    print(e)
+    exit(1)
