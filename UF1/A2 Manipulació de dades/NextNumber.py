@@ -1,7 +1,7 @@
 """
 Ayman Dghoughi Nouri
 M03 UF1
-4/10/2023
+04/10/2023
 Descripció: L'usuari escriu un número enter. "Printa" per pantalla el número següent.
 Per exemple, si entra el 4. El programa ha de mostrar la frase "Després ve el 5".
 """
