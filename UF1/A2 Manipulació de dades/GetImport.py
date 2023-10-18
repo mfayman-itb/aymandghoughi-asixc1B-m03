@@ -7,11 +7,6 @@ dels següents tipus: 2 €, 1 €, 50 cèntims, 20 cèntims,10 cèntims i 5 cè
 El programa ens ha de dir l'import total en euros amb una precisió de dos decimals.
 """
 try:
-    twoEuro = 2.0
-    oneEuro = 1.0
-    fiftyCents = 0.5
-    twentyCents = 0.2
-
     two_euros = int(input("How many two euro coins do you have? "))
     one_euro = int(input("How many one euro coins do you have? "))
     fifty_cents = int(input("How many fifty cents coins do you have? "))
@@ -19,4 +14,6 @@ try:
     ten_cents = int(input("How many ten cents coins do you have? "))
     five_cents = int(input("How many five cents coins do you have? "))
 
+    result2 = two_euros * 2
+    result50
     print()
