@@ -1,3 +1,9 @@
+"""
+15/11/2023
+Ayman Dghoughi Nouri
+M03 UF1 A4
+Descripció: IsPinOk
+"""
 x = 1
 PIN = 1234
 EASTER_EGG = "0007"
