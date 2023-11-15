@@ -12,7 +12,7 @@ clave = input("Dime la clave: ")
 while int(clave) != PIN and clave != EASTER_EGG and x != 3:
     print("Clave incorrecta")
     clave = input("Dime la clave: ")
-    x = x + 1
+    x += 1
 if x == 3:
     print("Intents esgotats: LAS CAGAO BACALAO")
 elif int(clave) == PIN:
