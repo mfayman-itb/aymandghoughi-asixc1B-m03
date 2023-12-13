@@ -1,3 +1,6 @@
+"""
+descripción: que tipo de triangulo es
+"""
 seg1 = int(input("Introduce el valor del primer segmento: "))
 seg2 = int(input("Introduce el valor del primer segmento: "))
 seg3 = int(input("Introduce el valor del primer segmento: "))

@@ -2,7 +2,7 @@
 25/10/2023
 Ayman Dghoughi
 M03 UF1 A3
-Descripció:
+Descripció: si hay la misma cantidad de galletas para todos dice lets eat si no lets fight
 """
 
 situation = input()

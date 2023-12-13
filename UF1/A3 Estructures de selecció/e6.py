@@ -1,3 +1,6 @@
+"""
+descripción: comprueba si esta en mayusculas o minusculas
+"""
 cadena = input("Escribe lo que quieras en minusculas o en mayusculas: ")
 
 if cadena == cadena.upper():

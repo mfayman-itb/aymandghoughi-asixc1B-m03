@@ -1,3 +1,6 @@
+"""
+descripción: calcular el importe dependiendo el sitio
+"""
 place = input("A quina zona ho enviem: ").lower()
 weight = int(input("Quin es el seu pes: "))
 

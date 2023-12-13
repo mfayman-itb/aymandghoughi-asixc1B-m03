@@ -1,7 +1,7 @@
 """
 descripción:
 """
-line = int(input("GIve me the number of lines: "))
+line = int(input("Give me the number of lines: "))
 column = int(input("Give me the number of columns: "))
 x = "."
 for i in range(line):

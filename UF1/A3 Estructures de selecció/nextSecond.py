@@ -1,3 +1,7 @@
+"""
+descripción: L'usuari introdueix una hora amb tres enters (hores, minuts i segons).
+Imprimeix l'hora que serà al cap d'un segon.
+"""
 hour = input("Give the hour: ").split()
 h = hour[0]
 m = hour[1]

@@ -1,3 +1,6 @@
+"""
+descripción: te dice que pizza tienes que comprarte dependiendo de cuaal es mas grande.
+"""
 num = input("Dame el Diametro de la pizza y los lados de la otra pizza: ").split()
 import math
 

@@ -1,3 +1,6 @@
+"""
+descripción: no acabado
+"""
 diners = float(input())
 
 if diners >= 500:

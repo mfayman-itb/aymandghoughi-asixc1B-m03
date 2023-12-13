@@ -1,3 +1,6 @@
+"""
+descripción: eres mayor de edad o no
+"""
 try:
     edat = int(input("How old r u? "))
 

@@ -1,3 +1,7 @@
+"""
+descripción: Imprimeix "Excel·lent", "Notable", "Bé", "Suficient", "Suspès", "Nota invàlida" segons  la nota
+numèrica introduïda.
+"""
 nota = float(input("Introduce tu nota: "))
 
 if nota >=1 and nota <= 4:

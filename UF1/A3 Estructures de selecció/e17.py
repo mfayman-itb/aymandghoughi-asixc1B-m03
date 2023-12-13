@@ -1,3 +1,7 @@
+"""
+descripción: tiras un dado contra la maquina y tu numero sera el de la cara
+opuesta a la que saques(tambiel la maquina). Luego dice quien gana.
+"""
 dado = int(input())
 import random
 

@@ -1,3 +1,6 @@
+"""
+descripción: te dice el dia de la semana en 3 idiomas
+"""
 dia = int(input("Que dia bobo? "))
 idioma = input("Dime en que idioma lo quieres pou, ingles, catalan o castellano? ").lower()
 

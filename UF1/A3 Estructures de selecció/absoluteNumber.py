@@ -1,3 +1,6 @@
+"""
+descripción: Mostrar el valor absolut d'un enter entrat per l'usuari.
+"""
 num = int(input("Give me a negative num: "))
 
 if num < 0:

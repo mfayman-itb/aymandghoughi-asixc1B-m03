@@ -1,3 +1,6 @@
+"""
+descripción: dice cual es mas grande
+"""
 num = input("Give me two nbrs: ").split()
 
 if num[0] > num[1]:

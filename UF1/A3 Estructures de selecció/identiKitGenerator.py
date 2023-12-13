@@ -1,3 +1,6 @@
+"""
+descripción: para formar la cara del sosopechoso...jejeje
+"""
 tipus = input("Dime que cara tiene: ").lower().split()
 cabells = ""
 ulls = ""
