@@ -1,3 +1,6 @@
+"""
+descripción: menu de opciones con sugerencias
+"""
 try:
     num = 0
     while num != 5:

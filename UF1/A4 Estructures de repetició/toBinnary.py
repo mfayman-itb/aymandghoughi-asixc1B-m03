@@ -1,3 +1,6 @@
+"""
+descripción: Escriu un programa que llegeixi un nombre natural més petit que 256 i escrigui la seva representació en binari.
+"""
 num = int(input())
 ye = ""
 

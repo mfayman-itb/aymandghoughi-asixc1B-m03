@@ -1,3 +1,6 @@
+"""
+descripción: programa que donada una llista de puntuacions, ens digui qui és el guanyador del torneig.
+"""
 punts = 0
 nomAux = input("Escriu el nom del participant: ")
 

@@ -1,3 +1,6 @@
+"""
+descripción: programa que mostri per pantalla un rellotge, indicant les hores, minuts i segons.
+"""
 import time
 
 while True:

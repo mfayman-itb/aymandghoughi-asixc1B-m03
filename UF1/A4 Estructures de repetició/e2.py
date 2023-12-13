@@ -1,5 +1,8 @@
+"""
+descripción: Crea una aplicació que permet endevinar un número.
+"""
 import random
-num = random.randint(1, 2)
+num = random.randint(1, 100)
 intentos = 0
 mynum = ""
 

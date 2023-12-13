@@ -1,3 +1,6 @@
+"""
+descripción: Programa per crear una serp Python a mida.
+"""
 largo = int(input())
 CAP= "....\...../...."
 ULLS= "...╚⊙ ⊙╝..."

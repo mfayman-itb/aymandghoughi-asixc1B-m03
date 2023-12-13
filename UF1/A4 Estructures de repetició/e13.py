@@ -1,3 +1,6 @@
+"""
+descripción: programa que mostrarà el total d’hores treballades i el sou total.
+"""
 souH = int(input("Introduce el sueldo por hora: "))
 hora = 0
 horaT = 0

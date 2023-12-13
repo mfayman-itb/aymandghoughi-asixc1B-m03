@@ -1,3 +1,6 @@
+"""
+descripción: Modify the IsPasswordOK example so that it acts as GitLab does.
+"""
 x = 1
 PIN = 1234
 EASTER_EGG = "0007"

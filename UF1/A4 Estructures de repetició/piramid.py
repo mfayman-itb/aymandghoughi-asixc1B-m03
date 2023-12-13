@@ -1,3 +1,6 @@
+"""
+descripción: S'imprimeix una piràmide d'altura N de #
+"""
 num = int(input("Give me a number: "))
 obj = "🧱"
 

@@ -1,3 +1,7 @@
+"""
+descripción: programa comprovarà si es tracta d’una vocal.
+Si ho és, escriurà en pantalla ‘VOCAL’. En cas contrari, ‘NO VOCAL’
+"""
 vow = ""
 vowels = "aeiou"
 while vow != " ":

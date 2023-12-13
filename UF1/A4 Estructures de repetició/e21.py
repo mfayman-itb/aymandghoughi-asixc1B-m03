@@ -1,7 +1,10 @@
+"""
+descripción: Crea una aplicació que permet endevinar un nombre aleatori pensat per un usuari.
+"""
 import random
 
 num = int(input("Piensa en un numero del 1 al 100: "))
-urnum = random.randint(1, 101)
+urnum = random.randint(1, 100)
 intentos = 0
 topB = 0
 topA = 100

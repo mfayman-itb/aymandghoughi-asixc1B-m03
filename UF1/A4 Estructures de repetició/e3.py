@@ -1,3 +1,7 @@
+"""
+descripción: programa que demani números per teclat fins que s'introdueix
+un zero. El programa haurà d'imprimir la suma i la mitjana de tots els números introduïts.
+"""
 num = int(input("Give me numbers: "))
 suma = 0
 count = 0

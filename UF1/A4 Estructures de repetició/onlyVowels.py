@@ -1,3 +1,6 @@
+"""
+descripción: Donada una llista de lletres, imprimeix únicament les vocals que hi hagi.
+"""
 num = int(input())
 letter = input().split()
 length = len(letter)

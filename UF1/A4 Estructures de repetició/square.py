@@ -1,3 +1,6 @@
+"""
+descripción: Mostrar per pantalla un quadrat de mida N (la triarà l'usuari)
+"""
 num = int(input())
 obj = "#"
 
