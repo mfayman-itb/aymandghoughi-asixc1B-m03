@@ -1,13 +1,11 @@
 import random
-num = random.randint(1, 101)
+num = random.randint(1, 2)
 intentos = 0
 mynum = ""
 
 while mynum != num and intentos < 10:
     mynum = int(input("Introduce el numero ganador: "))
     intentos += 1
-    if mynum == num:
-        break
     if mynum < num:
         print("Mas grande chavalin\n")
     elif mynum > num:

@@ -13,11 +13,11 @@ while num != 0:
     num = int(input())
     if num > limI and num < limS:
         suma += num
-    elif num < limI or num > limS
+    elif num < limI or num > limS:
         fora += 1
     elif num == limI or num == limS:
         enLim = True
-print("suma de fora")
+print(f"suma de fora {suma}")
 if enLim == True:
     print()
 else:
