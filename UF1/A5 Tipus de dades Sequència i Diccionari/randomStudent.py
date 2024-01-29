@@ -34,6 +34,7 @@ pick = random.randint(0, len(CORREO) - 1)
 print(CORREO[pick])
 
 """
+#RULE GRAFICA (no rula)
 import turtle
 import random
 

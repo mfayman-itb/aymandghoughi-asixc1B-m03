@@ -1,3 +1,12 @@
+"""
+24/01/2024
+Ayman Dghoughi, Nizar El Khoulfi, Ian Díaz
+ASIXcB e1 UF1
+Fer un programa de càlcul de temperatures del mar. Les tasques a fer són:
+Calcular per a l’any  2022: temperatura màxima, mínima i mitjana
+Calcular per període 2000 a 2022: temperatura màxima, mínima i mitjana
+"""
+
 temp2022 = (13.6, 13.4, 13.2, 13.4, 13.9, 13.7, 13.7, 13.8, 14.0, 14.3, 16.0, 15.1)
 tempALL = (13.6, 13.4, 13.2, 13.4, 13.9, 13.7, 13.7, 13.8, 14.0, 14.3, 16.0, 15.1,
    13.3, 12.9, 13.5, 13.5, 13.7, 13.8, 13.8, 13.8, 14.2, 14.6, 16.8, 14.7,
@@ -24,11 +33,9 @@ tempALL = (13.6, 13.4, 13.2, 13.4, 13.9, 13.7, 13.7, 13.8, 14.0, 14.3, 16.0, 15.
    12.7, 12.4, 12.6, 12.4, 13.0, 13.6, 13.3, 13.6, 13.5, 15.9, 15.3, 14.9)
 
 minT = 100
-maxT = 0
-midT = 0
+maxT, midT = 0, 0
 min22 = 100
-max22 = 0
-mid22 = 0
+max22, mid22 = 0, 0
 
 for i in tempALL:
    if i > maxT:
@@ -36,7 +43,7 @@ for i in tempALL:
    elif i < minT:
        minT = i
    midT += i
-midF = midT / 312
+midF = midT / 200
 
 for i in temp2022:
    if i > max22:
@@ -46,6 +53,5 @@ for i in temp2022:
    mid22 += i
 mid22F = mid22 / 12
 
-print("Any 2022\n" + "Màxima:" + str(midT) + "\nMínima:" + str(maxT) + "\nMitjana:" + minT)
-
-
+print("● Any 2022\n" + "   - Màxima: " + str(maxT) + "\n   - Mínima:" + str(minT) + "\n   - Mitjana: {:.2f}".format(midF))
+print("\n● Període 2000 a 2022\n" + "   - Màxima: " + str(max22) + "\n   - Mínima:" + str(min22) + "\n   - Mitjana: {:.2f}".format(mid22F))
