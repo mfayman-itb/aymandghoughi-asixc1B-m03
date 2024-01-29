@@ -43,7 +43,7 @@ for i in tempALL:
    elif i < minT:
        minT = i
    midT += i
-midF = midT / 200
+midF = midT / 264
 
 for i in temp2022:
    if i > max22:
@@ -53,5 +53,5 @@ for i in temp2022:
    mid22 += i
 mid22F = mid22 / 12
 
-print("● Any 2022\n" + "   - Màxima: " + str(maxT) + "\n   - Mínima:" + str(minT) + "\n   - Mitjana: {:.2f}".format(midF))
-print("\n● Període 2000 a 2022\n" + "   - Màxima: " + str(max22) + "\n   - Mínima:" + str(min22) + "\n   - Mitjana: {:.2f}".format(mid22F))
+print("\n● Any 2022\n" + "   - Màxima: " + str(max22) + "\n   - Mínima:" + str(min22) + "\n   - Mitjana: {:.2f}".format(mid22F))
+print("\n● Període 2000 a 2022\n" + "   - Màxima: " + str(maxT) + "\n   - Mínima:" + str(minT) + "\n   - Mitjana: {:.2f}".format(midF))
