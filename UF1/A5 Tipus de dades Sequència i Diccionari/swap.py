@@ -1,1 +1,1 @@
-num = input()
+num = input().split()
