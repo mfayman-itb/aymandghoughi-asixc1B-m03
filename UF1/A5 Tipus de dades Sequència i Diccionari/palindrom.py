@@ -1,9 +1,12 @@
+# re.sub(patron, reemplazo, cadena)
+import re
 from unidecode import unidecode
+
 palindrom = input().lower()
-pal = palindrom.replace(" ","")
-pal = list(unidecode(pal))
+pal = re.sub(r'[^a-z0-9]', '', unidecode(palindrom))
 revrs = pal[::-1]
+
 if revrs == pal:
-    print("es un palindrom")
+    print("Es un palíndromo")
 else:
-    print("no es un palindrom")
+    print("No es un palíndromo")
