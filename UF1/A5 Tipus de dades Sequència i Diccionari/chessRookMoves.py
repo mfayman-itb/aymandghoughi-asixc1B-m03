@@ -1,13 +1,13 @@
 TORRE = "♖"
 POS_TORRE = "♜"
-
+MIDA = 8
 try:
     move = input().split()
     x = int(move[0])
     y = int(move[1])
 
-    for columna in range(0, 8):
-        for fila in range(0, 8):
+    for columna in range(MIDA):
+        for fila in range(MIDA):
             if columna == y and fila == x:
                 print(end=TORRE)
             elif columna == y or fila == x:
