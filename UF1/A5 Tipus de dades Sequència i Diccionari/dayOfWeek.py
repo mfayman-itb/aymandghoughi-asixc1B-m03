@@ -21,14 +21,13 @@ try:
     weekCA = ["dilluns", "dimarts", "dimecres", "dijous", "divendres", "disabte", "diumenge"]
     weekEN = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
     weekSP = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"]
-    dia = int(input("Introdueix un num de la setmana: ")) -1
-    if dia >= 1 and dia <= 7:
-        print(weekEN[dia], weekCA[dia], weekSP[dia])
-    else:
-        while dia < 1 and dia > 7:
-            dia = int(input("Introdueix un num valid: ")) - 1
+    dia = int(input("Introdueix un num de la setmana: ")) - 1
+    while dia < 0 or dia >= 7:
+        dia = int(input("Introdueix un num valid: ")) - 1
+    print(weekEN[dia], weekCA[dia], weekSP[dia])
 except Exception as e:
     print(e)
+
 
 
 """
