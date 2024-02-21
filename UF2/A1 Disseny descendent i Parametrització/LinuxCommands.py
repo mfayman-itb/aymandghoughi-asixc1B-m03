@@ -1,3 +1,5 @@
+#my own version
+
 #region variables
 import random
 CMD = ('touch', 'grep', 'cat', 'fdisk', 'cmp', 'dmesg', 'man', 'top', 'htop', 'halt')
@@ -61,3 +63,6 @@ def cmd_exe(comand):
 #region main
 cmd_input(CMD, OPTIONS)
 #endregion
+
+#version2
+
