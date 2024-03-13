@@ -1,11 +1,18 @@
-from syscolors.sysColors import SystemColors
+import systemColors as sc
+
+def rectangle_colors(color, lenght, width)
+    color_dict = {
+        'RED' : sc.CRED,
+        'WHITE' : sc.CWHITE,
+        'YELLOW' : sc.CYELLOW,
+        'GREEN' : sc.CGREEN
+
+    }
 
 def get_rectangles():
     rectangles = []
-    while True:
+    while rectangles != ';Q':
         rectangle_input = input().upper()
-        if ';Q' in rectangle_input:
-            break
         rectangles.append(rectangle_input.split())
     return rectangles
 
