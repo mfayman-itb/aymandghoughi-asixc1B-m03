@@ -1,3 +1,5 @@
+num =
+
 def get_num():
     num = int(input())
     return num

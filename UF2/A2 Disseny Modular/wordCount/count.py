@@ -4,6 +4,6 @@ def get_phrase():
     return phrase_no_signs.split()
 
 def count_cleanWords(phrase_no_signs):
-    unique_words = set(phrase_no_signs)
+    unique_words = set(phrase_no_signs) # set elimina los duplicados
     for i in unique_words:
-        print(f'{phrase_no_signs.count(i)}: {i}')
+        print(f'{i}: {phrase_no_signs.count(i)}')
