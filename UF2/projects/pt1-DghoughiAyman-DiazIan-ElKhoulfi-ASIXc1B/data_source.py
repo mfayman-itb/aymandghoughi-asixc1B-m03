@@ -74,4 +74,3 @@ def get_data_from_file(opt):
         exit(1)
     return text
 #endregion
-
