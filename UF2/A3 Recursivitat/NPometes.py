@@ -1,8 +1,8 @@
 def getAppleSongStanza(applesCount):
     if applesCount == 1:
-        POMA == 'pometa'
+        POMA = 'pometa'
     else:
-        POMA == 'pometes'
+        POMA = 'pometes'
     stanza = f"{applesCount} {POMA} té el pomer,\n" \
              f"de {applesCount} una, de {applesCount} una,\n" \
              f"{applesCount} {POMA} té el pomer,\n" \
