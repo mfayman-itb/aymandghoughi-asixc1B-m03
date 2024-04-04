@@ -1,10 +1,10 @@
 def print_menu(options):
-    print("Menú:")
+    print("\nMenú:")
     for i, option in enumerate(options, start=1):
         print(f"{i} - {option}")
 
 def print_sub_menu(options):
-    print("Submenú:")
+    print("\nSubmenú:")
     for i, option in enumerate(options, start=1):
         print(f"{i} - {option}")
 
