@@ -5,7 +5,7 @@ print(ara)
 
 #REQUESTS
 import requests
-r = requests.get(‘https://api.spotify.com/’)
+r = requests.get('https://api.spotify.com/')
 r.status_code
 
 print(r.headers)
