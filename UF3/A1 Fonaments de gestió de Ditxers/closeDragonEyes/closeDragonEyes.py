@@ -1,5 +1,5 @@
-RUTA_ENTRADA = '/home/ayman.dghoughi.7e7/Escriptori/DADES/ayman/M3/UF3/A1 Fonaments de gestió de Ditxers/Dragon.in'
-RUTA_SALIDA = '/home/ayman.dghoughi.7e7/Escriptori/DADES/ayman/M3/UF3/A1 Fonaments de gestió de Ditxers/DragonEyesClosed.out'
+RUTA_ENTRADA = '/home/ayman.dghoughi.7e7/Escriptori/DADES/ayman/M3/UF3/A1 Fonaments de gestió de Ditxers/closeDragonEyes/Dragon.in'
+RUTA_SALIDA = '/home/ayman.dghoughi.7e7/Escriptori/DADES/ayman/M3/UF3/A1 Fonaments de gestió de Ditxers/closeDragonEyes/DragonEyesClosed.out'
 
 def cambiarOjos(linea):
     nueva_linea = linea.replace("0 \ 0", "👁\👁")
@@ -13,5 +13,3 @@ def leerYGuardarArchivo():
                 archivo_salida.write(nueva_linea)
 
 leerYGuardarArchivo()
-
-
