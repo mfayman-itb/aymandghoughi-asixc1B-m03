@@ -1,0 +1,50 @@
+2024-04-18 12:12:05,734 ERROR /root: [Errno 13] Permission denied: '/root'
+
+2024-04-18 12:16:59,899 ERROR /root: [Errno 13] Permission denied: '/root'
+
+2024-04-18 12:17:51,050 ERROR /root: [Errno 13] Permission denied: '/root'
+
+2024-04-18 12:28:24,337 ERROR Directory not found
+2024-04-18 12:28:34,915 ERROR Directory not found
+2024-04-18 12:28:34,915 INFO Program ending1.2823207378387451
+2024-04-18 12:28:51,489 ERROR Directory not found
+2024-04-18 12:28:51,489 INFO Program ending 1.9620811939239502
+2024-04-18 12:31:41,911 ERROR Directory not found
+2024-04-18 12:31:41,911 INFO Program ending 1.82 seconds
+2024-04-18 12:32:04,023 ERROR /root: [Errno 13] Permission denied: '/root'
+
+2024-04-18 12:32:04,024 INFO Program ending 5.129 seconds
+2024-04-18 12:34:29,551 ERROR Directory not found
+2024-04-18 12:34:29,551 INFO Program ending 9.385 seconds
+2024-04-18 12:37:26,487 ERROR /root: [Errno 13] Permission denied: '/root'
+2024-04-18 12:37:26,487 INFO Program ending 2.119 seconds
+2024-04-18 12:47:11,902 INFO Program initialized
+2024-04-18 12:47:15,717 ERROR Directory not found
+2024-04-18 12:47:15,717 INFO Program ending 3.815 seconds, done in
+2024-04-18 12:48:01,572 INFO Program initialized
+2024-04-18 12:48:04,494 ERROR /root: [Errno 13] Permission denied: '/root'
+2024-04-18 12:48:04,494 INFO Program ending, done in 2.922 seconds
+2024-04-18 12:52:38,624 INFO Program initialized
+2024-04-18 12:52:40,606 ERROR /media/aaron.pinya.7e6: [Errno 13] Permission denied: '/media/aaron.pinya.7e6'
+2024-04-18 12:52:40,657 ERROR /media/root: [Errno 13] Permission denied: '/media/root'
+2024-04-18 12:52:40,657 ERROR /media/sjo: [Errno 13] Permission denied: '/media/sjo'
+2024-04-18 12:52:41,213 ERROR /lib/ssl/private: [Errno 13] Permission denied: '/lib/ssl/private'
+2024-04-18 12:52:45,388 ERROR /sys/kernel/tracing: [Errno 13] Permission denied: '/sys/kernel/tracing'
+2024-04-18 12:52:45,465 ERROR /sys/kernel/debug: [Errno 13] Permission denied: '/sys/kernel/debug'
+2024-04-18 12:58:32,656 INFO Program initialized
+2024-04-18 12:58:47,188 INFO Program initialized
+2024-04-18 12:58:50,828 ERROR /home/aaron.pinya.7e6: [Errno 13] Permission denied: '/home/aaron.pinya.7e6'
+2024-04-18 12:58:50,828 ERROR /home/sjo: [Errno 13] Permission denied: '/home/sjo'
+2024-04-18 12:58:52,461 INFO Program ended due to SIGINT, done in 5.273
+[2024-04-18 12:59:29,263 INFO Program initialized]
+[2024-04-18 12:59:32,212 ERROR /root: [Errno 13] Permission denied: '/root']
+[2024-04-18 12:59:32,212 INFO Program ending, done in 2.949 seconds]
+[2024-04-18 12:59:34,795 INFO Program initialized]
+[2024-04-18 12:59:37,091 ERROR /home/aaron.pinya.7e6: [Errno 13] Permission denied: '/home/aaron.pinya.7e6']
+[2024-04-18 12:59:37,091 ERROR /home/sjo: [Errno 13] Permission denied: '/home/sjo']
+[2024-04-18 12:59:38,757 INFO Program ended due to SIGINT, done in 3.962]
+[2024-04-18 13:00:21,487] [INFO] Program initialized
+[2024-04-18 13:00:24,100] [ERROR] /home/aaron.pinya.7e6: [Errno 13] Permission denied: '/home/aaron.pinya.7e6'
+[2024-04-18 13:00:24,100] [ERROR] /home/sjo: [Errno 13] Permission denied: '/home/sjo'
+[2024-04-18 13:00:25,816] [ERROR] /home/yeray.lopez.7e7: [Errno 13] Permission denied: '/home/yeray.lopez.7e7'
+[2024-04-18 13:00:25,816] [INFO] Program ending, done in 4.329 seconds
