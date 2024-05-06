@@ -1,3 +1,7 @@
+"""
+LAMP FUNCTIONS
+"""
+
 def turn_on(light):
     light = True
     print(light)
