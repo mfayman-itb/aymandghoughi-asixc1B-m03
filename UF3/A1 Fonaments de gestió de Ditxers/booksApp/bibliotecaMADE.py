@@ -1,7 +1,6 @@
 import os
 
-llibres =[]
-library = os.path.join('.','books.out')
+llibres = []
 
 def get_input():
     global llibres
@@ -12,12 +11,40 @@ def get_input():
         pagines = int(input())
         llibres.append((titol, autor, pagines))
 
-def addLECTO():
+def find_shortest_longest():
+    shortest = llibres[0]
+    longest = llibres[0]
+    for llibre in llibres:
+        if llibre[2] < shortest[2]:
+            shortest = llibre
+        elif llibre[2] > longest[2]:
+            longest = llibre
+    return shortest, longest
+
+def add_to_library(file_path):
     global llibres
-    with open(library, mode="w",encoding="utf-8") as file:
+    with open(file_path, mode="w", encoding="utf-8") as file:
         file.write("Llibres\n--------\n\n")
         for llibre in llibres:
             file.write(f"{llibre[0]} - {llibre[1]} - {llibre[2]} pàgines\n")
         file.write("\n-----------\n")
 
+def show_summary():
+    global llibres
+    total_llibres = len(llibres)
+    shortest, longest = find_shortest_longest()
+
+    print("Llibres\n--------")
+    for llibre in llibres:
+        print(f"{llibre[0]} - {llibre[1]} - {llibre[2]} pàgines")
+    print("-----------\n")
+
+    print(f"Total: {total_llibres} llibres")
+    print(f"Llibre més curt: {shortest[0]} - {shortest[1]} - {shortest[2]} pàgines")
+    print(f"Llibre més llarg: {longest[0]} - {longest[1]} - {longest[2]} pàgines")
+
+
 get_input()
+library = os.path.join('.', 'books.out')
+add_to_library(library)
+show_summary()
