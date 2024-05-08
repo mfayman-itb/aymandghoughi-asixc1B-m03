@@ -1,6 +1,7 @@
 import json
+import os.path
 
-jsonF = 'opendatabcn_NP-NASIA_Platges-js.json'
+jsonF = os.path.join('.', 'opendatabcn_NP-NASIA_Platges-js.json')
 
 def get_json_file():
     with open(jsonF, 'r') as f:

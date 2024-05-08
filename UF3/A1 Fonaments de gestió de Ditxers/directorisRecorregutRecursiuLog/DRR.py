@@ -1,5 +1,5 @@
 """
-Javier amaya Boira
+Ayman Dghoughi Nouri
 ASIXc UF3 A1 Exemple
 08/04/2024
 
@@ -11,6 +11,7 @@ us.path.join()
 Genera rutes d'arxius i directoris que són vàlides en qualsevol sistema operatiu.
 Això assegura que el programa funcioni correctament en Windows, Linux i macOS sense necessitat de modificacions addicionals.
 """
+
 import logging
 import os
 import signal

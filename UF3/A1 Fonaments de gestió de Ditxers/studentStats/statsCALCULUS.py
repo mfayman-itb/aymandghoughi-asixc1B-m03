@@ -1,3 +1,10 @@
+"""
+Description: Conèixer la nota mínima, la màxima i la mitjana dels seus alumnes apartir d'un fitxer amb moltes notes
+
+Usage:
+Input --> File
+"""
+
 import os
 import statistics
 

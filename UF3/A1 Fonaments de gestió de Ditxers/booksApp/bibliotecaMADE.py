@@ -1,3 +1,20 @@
+"""
+Description: Programa per guardar la informació dels diferents llibres que té una biblioteca
+
+Usage:
+Input --> Per teclat
+3
+Lorem
+Ot Pi
+56
+Ipsum
+Mar Om
+77
+Dolor
+Lin Om
+42
+"""
+
 import os
 
 llibres = []
