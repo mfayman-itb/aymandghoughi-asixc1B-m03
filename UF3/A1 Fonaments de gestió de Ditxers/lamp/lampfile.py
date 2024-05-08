@@ -1,8 +1,21 @@
+"""
+Description: programa que simula un llum, amb les accions:
+--> TURN ON: Encén el llum
+--> TURN OFF: Apaga el llum
+--> TOGGLE: Canvia l'estat del llum
+--> END: Finalitza la seqüència d'accions. Warning si el fitxer no acaba amb END
+
+Usage:
+Input --> File
+Output --> Terminal
+"""
+
+import os
 from lamp_actions import *
 
 def main():
     light = False
-    filename = input("filename: ")
+    filename = os.path.join('.', 'lampinput')
     try:
         with open(filename, 'r') as file:
             for line in file:

@@ -1,3 +1,13 @@
+"""
+Description: programa que llegint el fitxer JSON de les platges de Barcelona ens doni la següent informació:
+--> Obtenir els noms de tots els districtes de Barcelona que tenen platges CV? i SM?
+--> Obtenir la quantitat de platges que hi ha al districte de "Ciutat Vella"  4?
+
+Usage:
+Input --> JSON file 'opendatabcn_NP-NASIA_Platges-js'
+Output --> Terminal
+"""
+
 import json
 import os.path
 

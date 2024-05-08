@@ -1,0 +1,4 @@
+2024-05-08 23:19:14,002 DEBUG Debug message
+2024-05-08 23:19:14,002 INFO Informative message
+2024-05-08 23:19:14,002 ERROR Error message
+2024-05-08 23:19:14,002 WARNING Protocol problem: connection reset

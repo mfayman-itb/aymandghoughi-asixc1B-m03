@@ -1,7 +1,24 @@
+"""
+Description: programa que analitzi els resultats d'un partit de bàsquet. L'usuari introduirà la ruta al fitxer.
+
+Usage:
+Input --> File
+Output --> File
+"""
+
 import os
 
-inputFile = os.path.join('.', 'results')
-outputFile = os.path.join('.', 'results_output.txt')
+inputFile = os.path.join('.', 'resultats')
+outputFile = os.path.join('.', 'resultats_output.txt')
+
+# Para que el user me de la ruta (no hace falta para que funcione)
+def get_input_path():
+    while True:
+        input_path = input("Please enter the path of the input file: ")
+        if os.path.exists(input_path):
+            return input_path
+        else:
+            print("File not found. Please enter a valid path.")
 
 def compare_scores(current_score, previous_score, teams, results):
     difference = (current_score[0] - previous_score[0], current_score[1] - previous_score[1])
@@ -59,6 +76,8 @@ def generate_results(input_path, output_path):
             print(f"Error writing to output file: {e}")
 
 def main():
+    #input_file = get_input_path()
+    #output_file = os.path.join('.', 'results_output.txt')
     generate_results(inputFile, outputFile)
 
 if __name__ == '__main__':

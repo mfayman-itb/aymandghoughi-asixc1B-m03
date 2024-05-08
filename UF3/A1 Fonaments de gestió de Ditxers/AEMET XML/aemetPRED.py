@@ -1,3 +1,13 @@
+"""
+Description: programa que a partir del fitxer XML, calculi, i mostri per pantalla:
+--> Probabilitat de precipitació
+--> Temperatura mitjana
+
+Usage:
+Input --> CSV file '2023_03_Marc_BicingNou_INFORMACIO.csv.7z'
+Output --> Terminal
+"""
+
 import xml.etree.ElementTree as xeet
 
 weatherF = 'localidad_17202.xml'
