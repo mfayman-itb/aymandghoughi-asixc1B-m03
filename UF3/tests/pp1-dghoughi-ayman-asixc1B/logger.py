@@ -18,6 +18,7 @@ logMode = 'at'
 color_code = 0
 logging.basicConfig(level=logLevel, format=logFormat, filename=logFile, filemode=logMode)
 
+#region Functions
 def logger(type, message):
     match type:
         case 'error': logging.error(message)
@@ -25,3 +26,5 @@ def logger(type, message):
         case 'warning': logging.warning(message)
         case 'debug': logging.debug(message)
         case 'critical': logging.critical(message)
+
+#endregion

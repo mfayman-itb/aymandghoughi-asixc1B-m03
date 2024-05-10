@@ -6,14 +6,14 @@ M03 UF3 pp1
 Descripció: len detector
 """
 
+#region Imports
 from data_source import *
 from logger import *
+#endregion
 
-
-
+#region Functions
 def word_leght_2(text):
     try:
-        print(text)
         file = os.path.join('.', 'paraules-2.txt')
         if os.path.exists(file):
             with open(file, 'wt', encoding='utf-8') as file:
@@ -33,7 +33,6 @@ def word_leght_4(text):
         with open(file, 'wt', encoding='utf-8') as file:
             for i in text:
                 lenght = len(i)
-                print(lenght)
                 if lenght == 4:
                     file.write(i + "\n")
 
@@ -81,3 +80,4 @@ def word_leght_10(text):
         logger('error', e)
     logger('info', f'Results saved to: {file}')
 
+#endregion

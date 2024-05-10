@@ -6,12 +6,15 @@ M03 UF3 pp1
 Descripció: get data
 """
 
+#region Imports
 import os
 from logger import *
+#endregion
 
 inputFIle = os.path.join('.', 'paraules.txt')
 allWords = []
 
+#region Functions
 def get_data_from_file():
     if os.path.exists(inputFIle):
         with open(inputFIle, 'r') as file:
@@ -22,3 +25,5 @@ def get_data_from_file():
         exit(1)
     logger('info', 'Succesfully loaded the data.')
     return text
+
+#endregion

@@ -6,9 +6,11 @@ M03 UF3 pp1
 Descripció: programa principal
 """
 
+#region Imports
 from logger import *
 from data_source import *
 from worder import *
+#endregion
 
 def main():
     text = get_data_from_file()

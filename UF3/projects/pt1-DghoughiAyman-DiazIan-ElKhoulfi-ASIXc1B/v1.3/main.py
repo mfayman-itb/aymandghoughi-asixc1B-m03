@@ -48,4 +48,3 @@ except Exception as e:
 finally:
     logger('info', f'Program ended, time elapsed: {timeElapsed():.3f}')
 #endregion
-

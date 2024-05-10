@@ -439,3 +439,21 @@
 2024-05-09 11:51:55,705 - INFO - Results saved to: <_io.TextIOWrapper name='./paraules-8.txt' mode='wt' encoding='UTF-8'>
 2024-05-09 11:51:55,705 - ERROR - 'list' object is not callable
 2024-05-09 11:51:55,705 - INFO - Results saved to: <_io.TextIOWrapper name='./paraules-10.txt' mode='wt' encoding='UTF-8'>
+2024-05-10 09:01:20,557 - INFO - Succesfully loaded the data.
+2024-05-10 09:01:20,558 - INFO - Results saved to: <_io.TextIOWrapper name='./paraules-2.txt' mode='wt' encoding='utf-8'>
+2024-05-10 09:01:20,559 - INFO - Results saved to: <_io.TextIOWrapper name='./paraules-4.txt' mode='wt' encoding='utf-8'>
+2024-05-10 09:01:20,559 - INFO - Results saved to: <_io.TextIOWrapper name='./paraules-6.txt' mode='wt' encoding='utf-8'>
+2024-05-10 09:01:20,560 - INFO - Results saved to: <_io.TextIOWrapper name='./paraules-8.txt' mode='wt' encoding='utf-8'>
+2024-05-10 09:01:20,560 - INFO - Results saved to: <_io.TextIOWrapper name='./paraules-10.txt' mode='wt' encoding='utf-8'>
+2024-05-10 09:03:09,763 - INFO - Succesfully loaded the data.
+2024-05-10 09:03:09,763 - INFO - Results saved to: <_io.TextIOWrapper name='./paraules-2.txt' mode='wt' encoding='utf-8'>
+2024-05-10 09:03:09,763 - INFO - Results saved to: <_io.TextIOWrapper name='./paraules-4.txt' mode='wt' encoding='utf-8'>
+2024-05-10 09:03:09,763 - INFO - Results saved to: <_io.TextIOWrapper name='./paraules-6.txt' mode='wt' encoding='utf-8'>
+2024-05-10 09:03:09,764 - INFO - Results saved to: <_io.TextIOWrapper name='./paraules-8.txt' mode='wt' encoding='utf-8'>
+2024-05-10 09:03:09,764 - INFO - Results saved to: <_io.TextIOWrapper name='./paraules-10.txt' mode='wt' encoding='utf-8'>
+2024-05-10 09:07:29,148 - INFO - Succesfully loaded the data.
+2024-05-10 09:07:29,149 - INFO - Results saved to: <_io.TextIOWrapper name='./paraules-2.txt' mode='wt' encoding='utf-8'>
+2024-05-10 09:07:29,149 - INFO - Results saved to: <_io.TextIOWrapper name='./paraules-4.txt' mode='wt' encoding='utf-8'>
+2024-05-10 09:07:29,149 - INFO - Results saved to: <_io.TextIOWrapper name='./paraules-6.txt' mode='wt' encoding='utf-8'>
+2024-05-10 09:07:29,149 - INFO - Results saved to: <_io.TextIOWrapper name='./paraules-8.txt' mode='wt' encoding='utf-8'>
+2024-05-10 09:07:29,150 - INFO - Results saved to: <_io.TextIOWrapper name='./paraules-10.txt' mode='wt' encoding='utf-8'>

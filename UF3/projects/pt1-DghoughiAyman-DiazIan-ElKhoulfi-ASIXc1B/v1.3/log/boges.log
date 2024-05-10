@@ -224,3 +224,51 @@
 2024-05-08 12:53:16,868 - INFO - Punctuation fixed (ultimo.txt)
 2024-05-08 12:53:16,868 - INFO - Text disordered (ultimo.txt)
 2024-05-08 12:53:16,868 - INFO - Program ended, time elapsed: 0.001
+2024-05-09 08:20:06,120 - INFO - Program started, loading input data.
+2024-05-09 08:20:06,122 - INFO - All input data loaded (['titos.txt', 'abcd.txt', 'tiruelas.txt', 'ultimo.txt'])
+2024-05-09 08:20:06,122 - INFO - Input validated (titos.txt)
+2024-05-09 08:20:06,122 - INFO - Punctuation fixed (titos.txt)
+2024-05-09 08:20:06,122 - INFO - Text disordered (titos.txt)
+2024-05-09 08:20:06,122 - INFO - Input validated (abcd.txt)
+2024-05-09 08:20:06,122 - INFO - Punctuation fixed (abcd.txt)
+2024-05-09 08:20:06,122 - INFO - Text disordered (abcd.txt)
+2024-05-09 08:20:06,123 - INFO - Input validated (tiruelas.txt)
+2024-05-09 08:20:06,123 - INFO - Punctuation fixed (tiruelas.txt)
+2024-05-09 08:20:06,123 - INFO - Text disordered (tiruelas.txt)
+2024-05-09 08:20:06,123 - WARNING - Text is empty or too short ('ult'), proceeding anyways...
+2024-05-09 08:20:06,123 - INFO - Input validated (ultimo.txt)
+2024-05-09 08:20:06,123 - INFO - Punctuation fixed (ultimo.txt)
+2024-05-09 08:20:06,123 - INFO - Text disordered (ultimo.txt)
+2024-05-09 08:20:06,124 - INFO - Program ended, time elapsed: 0.004
+2024-05-09 08:20:08,561 - INFO - Program started, loading input data.
+2024-05-09 08:20:08,562 - INFO - All input data loaded (['titos.txt', 'abcd.txt', 'tiruelas.txt', 'ultimo.txt'])
+2024-05-09 08:20:08,562 - INFO - Input validated (titos.txt)
+2024-05-09 08:20:08,562 - INFO - Punctuation fixed (titos.txt)
+2024-05-09 08:20:08,562 - INFO - Text disordered (titos.txt)
+2024-05-09 08:20:08,562 - INFO - Input validated (abcd.txt)
+2024-05-09 08:20:08,562 - INFO - Punctuation fixed (abcd.txt)
+2024-05-09 08:20:08,562 - INFO - Text disordered (abcd.txt)
+2024-05-09 08:20:08,562 - INFO - Input validated (tiruelas.txt)
+2024-05-09 08:20:08,562 - INFO - Punctuation fixed (tiruelas.txt)
+2024-05-09 08:20:08,562 - INFO - Text disordered (tiruelas.txt)
+2024-05-09 08:20:08,562 - WARNING - Text is empty or too short ('ult'), proceeding anyways...
+2024-05-09 08:20:08,562 - INFO - Input validated (ultimo.txt)
+2024-05-09 08:20:08,562 - INFO - Punctuation fixed (ultimo.txt)
+2024-05-09 08:20:08,562 - INFO - Text disordered (ultimo.txt)
+2024-05-09 08:20:08,562 - INFO - Program ended, time elapsed: 0.001
+2024-05-09 08:40:06,182 - INFO - Program started, loading input data.
+2024-05-09 08:40:06,182 - INFO - All input data loaded (['titos.txt', 'abcd.txt', 'tiruelas.txt', 'ultimo.txt'])
+2024-05-09 08:40:06,182 - INFO - Input validated (titos.txt)
+2024-05-09 08:40:06,182 - INFO - Punctuation fixed (titos.txt)
+2024-05-09 08:40:06,182 - INFO - Text disordered (titos.txt)
+2024-05-09 08:40:06,182 - INFO - Input validated (abcd.txt)
+2024-05-09 08:40:06,182 - INFO - Punctuation fixed (abcd.txt)
+2024-05-09 08:40:06,182 - INFO - Text disordered (abcd.txt)
+2024-05-09 08:40:06,182 - INFO - Input validated (tiruelas.txt)
+2024-05-09 08:40:06,182 - INFO - Punctuation fixed (tiruelas.txt)
+2024-05-09 08:40:06,182 - INFO - Text disordered (tiruelas.txt)
+2024-05-09 08:40:06,182 - WARNING - Text is empty or too short ('ult'), proceeding anyways...
+2024-05-09 08:40:06,182 - INFO - Input validated (ultimo.txt)
+2024-05-09 08:40:06,182 - INFO - Punctuation fixed (ultimo.txt)
+2024-05-09 08:40:06,182 - INFO - Text disordered (ultimo.txt)
+2024-05-09 08:40:06,183 - INFO - Program ended, time elapsed: 0.001
